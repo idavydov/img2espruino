@@ -4,3 +4,6 @@ ImageMagick's convert can only generate espruino strings from
 images when image width is a multiple of 8.
 
 See here: https://github.com/espruino/EspruinoDocs/issues/617
+
+You can install it using:
+pip install --user git+https://github.com/idavydov/img2espruino.git
