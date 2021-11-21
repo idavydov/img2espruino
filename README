@@ -1,0 +1,6 @@
+Convert binary image to espruino base64 string.
+
+ImageMagick's convert can only generate espruino strings from
+images when image width is a multiple of 8.
+
+See here: https://github.com/espruino/EspruinoDocs/issues/617
