@@ -9,7 +9,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Convert 1-bit image to base64 string for espruino"
     )
-    parser.add_argument("--key")
+    parser.add_argument("--key", help="use object key syntax: '<key>': {...},")
     parser.add_argument("--invert", action="store_true", help="invert image colors")
     parser.add_argument("infile")
 
